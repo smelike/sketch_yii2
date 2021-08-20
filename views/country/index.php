@@ -1,17 +1,21 @@
 <?php
 use yii\helpers\Html;
 use yii\widgets\LinkPager;
+
+$this->title = '国家列表';
+
+$metaTag = [
+    ['name' => 'keywords', 'content' => 'yii, framework, php, space'],
+    ['name' => 'description', 'content' => '国家与邮政编码']
+];
+$this->registerMetaTag($metaTag);
+// $this->registerMetaTag(['name' => 'keywords', 'content' => 'yii, framework, php, space']);
+// $this->registerMetaTag(['name' => 'description', 'content' => '国家与邮政编码']);
 ?>
 
 <h1>Countries</h1>
 
-<ul>
-<?php foreach ($countries as $country): ?>
-    <li>
-        <?= Html::encode("{$country->code} ({$country->name})") ?>:<?= $country->population ?>
-    </li>
-<?php endforeach; ?>
-</ul>
+<?= $this->params['breadcrumbs'][] = 'Country' ?>
 
 <table class="table table-hover">
 <?php foreach ($countries as $country): ?>
