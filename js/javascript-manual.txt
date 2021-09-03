@@ -1,0 +1,4 @@
+function ce() {
+	return (a = null), b = Math.random();
+// 返回值是最后一个；
+}
