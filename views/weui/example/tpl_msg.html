@@ -1,0 +1,187 @@
+<script type="text/html" id="tpl_msg">
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title">Msg</h1>
+        <p class="page__desc">提示页</p>
+    </div>
+    <div class="page__bd page__bd_spacing">
+        <a href="#msg_success" role="button" class="weui-btn weui-btn_default">成功提示页</a>
+        <a href="#msg_warn" role="button" class="weui-btn weui-btn_default">失败提示页</a>
+        <a href="#msg_text" role="button" class="weui-btn weui-btn_default">无图标提示页</a>
+        <a href="#msg_text_primary" role="button" class="weui-btn weui-btn_default">无图标提示页</a>
+        <a href="#msg_custom_area_preview" role="button" class="weui-btn weui-btn_default">key-value场景</a>
+        <a href="#msg_custom_area_tips" role="button" class="weui-btn weui-btn_default">描述列表场景</a>
+        <a href="#msg_custom_area_cell" role="button" class="weui-btn weui-btn_default">跳转列表场景</a>
+    </div>
+</div>
+
+</script>
+    <script type="text/html" id="tpl_msg_success">
+<div class="page">
+    <div class="weui-msg">
+        <div class="weui-msg__icon-area"><i class="weui-icon-success weui-icon_msg"></i></div>
+        <div class="weui-msg__text-area">
+            <h2 class="weui-msg__title">操作成功</h2>
+            <p class="weui-msg__desc">内容详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现<a class="weui-wa-hotarea weui-link" href="javascript:">文字链接</a></p>
+        </div>
+        <div class="weui-msg__opr-area">
+            <p class="weui-btn-area">
+                <a href="javascript:history.back();" role="button" class="weui-btn weui-btn_primary">推荐操作</a>
+            </p>
+        </div>
+        <div class="weui-msg__tips-area">
+          <p class="weui-msg__tips">提示详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现<a class="weui-wa-hotarea weui-link" href="javascript:">文字链接</a></p>
+        </div>
+        <div class="weui-msg__extra-area">
+            <div class="weui-footer">
+                <p class="weui-footer__links">
+                    <a href="javascript:" class="weui-wa-hotarea weui-footer__link">底部链接文本</a>
+                </p>
+                <p class="weui-footer__text">Copyright &copy; 2008-2016 weui.io</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</script>
+    <script type="text/html" id="tpl_msg_warn">
+<div class="page">
+    <div class="weui-msg">
+        <div class="weui-msg__icon-area"><i class="weui-icon-warn weui-icon_msg"></i></div>
+        <div class="weui-msg__text-area">
+            <h2 class="weui-msg__title">操作失败</h2>
+            <p class="weui-msg__desc">内容详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现<a class="weui-wa-hotarea weui-link" href="javascript:">文字链接</a></p>
+        </div>
+        <div class="weui-msg__tips-area">
+          <p class="weui-msg__tips">提示详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现<a class="weui-wa-hotarea weui-link" href="javascript:">文字链接</a></p>
+        </div>
+        <div class="weui-msg__opr-area">
+            <p class="weui-btn-area">
+                <a href="javascript:history.back();" role="button" class="weui-btn weui-btn_default">辅助操作</a>
+            </p>
+        </div>
+        <div class="weui-msg__extra-area">
+            <div class="weui-footer">
+                <p class="weui-footer__links">
+                    <a href="javascript:" class="weui-wa-hotarea weui-footer__link">底部链接文本</a>
+                </p>
+                <p class="weui-footer__text">Copyright &copy; 2008-2016 weui.io</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</script>
+    <script type="text/html" id="tpl_msg_text">
+<div class="page">
+    <div class="weui-msg">
+        <div class="weui-msg__text-area">
+            <h2 class="weui-msg__title">操作成功</h2>
+            <p class="weui-msg__desc">内容详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现<a class="weui-wa-hotarea weui-link" href="javascript:">文字链接</a></p>
+        </div>
+        <div class="weui-msg__opr-area">
+            <p class="weui-btn-area">
+                <a href="javascript:history.back();" role="button" class="weui-btn weui-btn_primary">推荐操作</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+</script>
+    <script type="text/html" id="tpl_msg_text_primary">
+<div class="page">
+    <div class="weui-msg">
+        <div class="weui-msg__text-area">
+            <p class="weui-msg__desc">内容详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现</p>
+            <p class="weui-msg__desc-primary">内容详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现</p>
+        </div>
+        <div class="weui-msg__opr-area">
+            <p class="weui-btn-area">
+                <a href="javascript:history.back();" role="button" class="weui-btn weui-btn_primary">推荐操作</a>
+            </p>
+        </div>
+        <div class="weui-msg__tips-area">
+          <p class="weui-msg__tips">提示详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现<a class="weui-wa-hotarea" href="javascript:">文字链接</a></p>
+        </div>
+    </div>
+</div>
+
+</script>
+    <script type="text/html" id="tpl_msg_custom_area_preview">
+<div class="page">
+    <div class="weui-msg">
+        <div class="weui-msg__icon-area"><i class="weui-icon-success weui-icon_msg"></i></div>
+        <div class="weui-msg__text-area">
+            <h2 class="weui-msg__title">操作成功</h2>
+            <p class="weui-msg__desc">内容详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现<a class="weui-wa-hotarea weui-link" href="javascript:">文字链接</a></p>
+            <div class="weui-msg__custom-area">
+              <ul class="weui-form-preview__list">
+                <li role="option" class="weui-form-preview__item"><label class="weui-form-preview__label">姓名</label><p class="weui-form-preview__value">张三</p></li>
+                <li role="option" class="weui-form-preview__item"><label class="weui-form-preview__label">微信号</label><p class="weui-form-preview__value">zhangsan</p></li>
+              </ul>
+            </div>
+        </div>
+        <div class="weui-msg__opr-area">
+            <p class="weui-btn-area">
+                <a href="javascript:history.back();" role="button" class="weui-btn weui-btn_primary">推荐操作</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+</script>
+    <script type="text/html" id="tpl_msg_custom_area_tips">
+<div class="page">
+    <div class="weui-msg">
+        <div class="weui-msg__icon-area"><i class="weui-icon-success weui-icon_msg"></i></div>
+        <div class="weui-msg__text-area">
+            <h2 class="weui-msg__title">操作成功</h2>
+            <p class="weui-msg__desc">内容详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现<a class="weui-wa-hotarea weui-link" href="javascript:">文字链接</a></p>
+            <div class="weui-msg__custom-area">
+              <ul class="weui-list-tips">
+                <li role="option" class="weui-list-tips__item">列表提示项</li>
+                <li role="option" class="weui-list-tips__item">列表提示项</li>
+                <li role="option" class="weui-list-tips__item">列表提示项</li>
+              </ul>
+            </div>
+        </div>
+        <div class="weui-msg__opr-area">
+            <p class="weui-btn-area">
+                <a href="javascript:history.back();" role="button" class="weui-btn weui-btn_primary">推荐操作</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+</script>
+    <script type="text/html" id="tpl_msg_custom_area_cell">
+<div class="page">
+    <div class="weui-msg">
+        <div class="weui-msg__icon-area"><i class="weui-icon-success weui-icon_msg"></i></div>
+        <div class="weui-msg__text-area">
+            <h2 class="weui-msg__title">操作成功</h2>
+            <p class="weui-msg__desc">内容详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现<a class="weui-wa-hotarea weui-link" href="javascript:">文字链接</a></p>
+            <div class="weui-msg__custom-area">
+              <div class="weui-cells__group weui-cells__group_form">
+                <div class="weui-cells">
+                  <a class="weui-cell weui-cell_access" href="javascript:">
+                    <span class="weui-cell__bd">cell standard</span>
+                    <span class="weui-cell__ft"></span>
+                  </a>
+                  <a class="weui-cell weui-cell_access" href="javascript:">
+                    <span class="weui-cell__bd">cell standard</span>
+                    <span class="weui-cell__ft"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="weui-msg__opr-area">
+            <p class="weui-btn-area">
+                <a href="javascript:history.back();" role="button" class="weui-btn weui-btn_primary">推荐操作</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+</script>
